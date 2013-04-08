@@ -1,0 +1,119 @@
+*{
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+form, #front, #back{
+	float:left;
+	/*border: 6px inset #3D3D3D;*/
+	border: 6px outset #504E39;
+}
+form input, form label, form textarea{
+	margin-left: 20px;
+}
+form textarea{
+	margin-bottom: 20px;
+}
+form input{
+	width: 100px;
+}
+form #img_url{
+	width: 150px;
+}
+#submit{
+	margin: 5px 5px 5px 20px;
+}
+#front{
+	height: 192px;
+	width: 336px;
+	/*can't access root folder*/
+	background: url("whitey.png");
+
+/*	background-color:#269;
+background-image: linear-gradient(white 2px, transparent 2px),
+linear-gradient(90deg, white 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px*/
+}
+#back{
+	width: 192px;
+	height: 336px;
+}
+
+#back ul{
+ /*color: pink;
+*/
+color:#9BCC93; 
+font-weight: bold;
+
+background-color: gray;
+ margin: 5px;
+ min-height: 250px;
+ max-height: 300px;
+}
+#back ul li {
+	margin-left:5px;
+	list-style-type: none;
+	/*hack width: 5px;*/
+	
+}
+
+#profile{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border: 1px dotted black;
+	margin: 8px 0px 5px 20px;
+}
+#stripe{
+	height: 50px;
+	width: 336px;
+	background-color: #3D3D3D;
+	border-radius: 0px;
+	float:right;
+	margin-bottom: 2px;
+
+
+}
+	#stripe	p {
+		margin-left: 100px;
+		line-height: 50px;
+		display: inline;
+		font-weight: bold;
+		color: white;
+		font-size: 100%;
+	}
+.clear {
+	clear:both;
+}
+.medal{
+	float:left;
+	height: 12px;
+	width: 40px;
+	border-radius: 0px;
+}
+.medal:first-child{
+	background-color:#468966;
+}
+.medal:nth-child(2){
+	background-color:#F8983D;
+}
+.medal:nth-child(3){
+	background-color:#F5E67F;
+}
+.medal:nth-child(4){
+	background-color:pink;
+}
+.medal:nth-child(5){
+	background-color:#BBC946;
+	width: 30px;
+}
+
+#announcement{
+	height: 20px;
+	line-height: 16px;
+	display: inline;
+	font-size: 12px;
+}
